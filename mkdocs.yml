@@ -1,0 +1,46 @@
+site_name: MUD Clamped Content Size Fitter
+site_description: ContentSizeFitter with optional min/max width and height clamping for Unity UI.
+repo_url: https://github.com/MUDV587/com.mud.modules.clampedcontentsizefitter
+repo_name: MUDV587/com.mud.modules.clampedcontentsizefitter
+
+docs_dir: Documentation~/docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Installation: 安装
+            Quick Start: 快速开始
+            Behavior: 行为说明
+            Samples: 示例
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Quick Start: quick-start.md
+  - Behavior: behavior.md
+  - Samples: samples.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true

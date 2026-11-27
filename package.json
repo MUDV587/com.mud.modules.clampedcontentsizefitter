@@ -1,0 +1,38 @@
+{
+  "name": "com.mud.modules.clampedcontentsizefitter",
+  "version": "0.1.0",
+  "displayName": "MUD.Modules.ClampedContentSizeFitter",
+  "description": "ContentSizeFitter with optional min/max width and height clamping for Unity UI",
+  "unity": "2022.3",
+  "license": "MIT",
+  "category": "Framework",
+  "type": "library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MUDV587/com.mud.modules.clampedcontentsizefitter.git"
+  },
+  "documentationUrl": "https://mudv587.github.io/com.mud.modules.clampedcontentsizefitter/",
+  "changelogUrl": "https://github.com/MUDV587/com.mud.modules.clampedcontentsizefitter/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/MUDV587/com.mud.modules.clampedcontentsizefitter/blob/main/LICENSE",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "ui",
+    "layout",
+    "content-size-fitter",
+    "clamp"
+  ],
+  "author": {
+    "name": "MUD",
+    "email": "1071458987@qq.com",
+    "url": "https://github.com/MUDV587"
+  },
+  "samples": [
+    {
+      "displayName": "ClampedContentSizeFitter Demo",
+      "description": "Multi-page side-by-side comparison demo showing ContentSizeFitter vs ClampedContentSizeFitter",
+      "path": "Samples~/ClampedContentSizeFitterDemo"
+    }
+  ]
+}
